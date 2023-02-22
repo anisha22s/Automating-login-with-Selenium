@@ -11,8 +11,8 @@ import pickle
 import time
 from selenium.webdriver.chrome.options import Options
 
-username = "oscarxu"
-password = 'Xjr19980729!'
+username = "######"
+password = '######!'
 
 options = Options()
 options.add_argument("user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36")
@@ -32,11 +32,11 @@ time.sleep(5)
 driver.find_element("id", "onetrust-accept-btn-handler").click()
 time.sleep(5)
 
-#driver.find_element_by_id("username").send_keys("oscarxu")
+
 driver.find_element("id", "username").send_keys(username)
 #time.sleep(3)
 
-#driver.find_element_by_id("password").send_keys("Xjr19980729!")
+
 driver.find_element("id", "password").send_keys(password)
 #time.sleep(3)
 
