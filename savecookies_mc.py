@@ -3,7 +3,7 @@
 """
 Created on Tue Feb  7 20:26:29 2023
 
-@author: leenasamant
+@author: anishasamant
 """
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
